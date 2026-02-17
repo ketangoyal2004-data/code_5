@@ -18,6 +18,9 @@ class cal:
     def exp(self):
         print("a ** 2 = ",self.a ** 2)
 
+    def mod(self):
+        print("a % b = ",self.a % self.b)
+
 
 obj = cal(10,5)
 obj.add()
