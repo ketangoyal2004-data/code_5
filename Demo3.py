@@ -9,6 +9,15 @@ class cal:
     def sub(self):
         print("a - b = ",self.a - self.b)
 
+    def mul(self):
+        print("a * b = ",self.a * self.b)
+
+    def div(self):
+        print("a / b  = ",self.a / self.b)
+
+
 obj = cal(10,5)
 obj.add()
 obj.sub()
+obj.mul()
+obj.div()

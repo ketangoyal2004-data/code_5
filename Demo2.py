@@ -9,6 +9,7 @@ class cal:
             print("a / b = ",self.a / self.b)
             print("a ** 2 = ",self.a ** 2)
             print("a ** 3 = ",self.a ** 3)
+            print("a ** 4 = ",self.a ** 4)
             print("a * b * c = ",self.a * self.b * self.c)   
 
 obj = cal(10,5,2)
