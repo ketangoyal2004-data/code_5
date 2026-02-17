@@ -15,6 +15,9 @@ class cal:
     def div(self):
         print("a / b  = ",self.a / self.b)
 
+    def exp(self):
+        print("a ** 2 = ",self.a ** 2)
+
 
 obj = cal(10,5)
 obj.add()
